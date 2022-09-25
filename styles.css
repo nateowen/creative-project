@@ -39,6 +39,7 @@
 .footer-container {
   display: flex;
   justify-content: center;
+  margin-bottom: -100px;
 }
 
 .footer {
@@ -53,6 +54,7 @@
 .footer-items {
   display: flex;
   justify-content: flex-end;
+  position: relative;
 }
 
 .privacy-policy {
@@ -60,7 +62,7 @@
 }
 
 .copyright {
-  
+  position: relative;
 }
 
 a {
@@ -73,7 +75,7 @@ a:hover {
   color: #303030;
 }
 
-/* PAT: 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 */
+/* PAT: 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 */
 
 /* Subscription */
 @mixin border-radius($radius) {
@@ -111,7 +113,7 @@ body{
 }
 
 #wrapper{
-   position: absolute;
+   position: relative;
    top: 50%;
    margin-top: -200px;
    left: 0;
