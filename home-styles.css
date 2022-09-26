@@ -48,22 +48,24 @@ body {
   font-weight: 200;
 }
 
-.button {
+button {
   position: absolute;
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "Rockwell", Times, serif;
+  padding: 8px;
+  border-color: #A9A9A9;
 }
 
 a {
       text-decoration: none;
-      color: white;
+      color: black;
   }
   
   a:hover {
       text-decoration: none;
-      color: #303030;
+      color: #A9A9A9;;
   }
 
 /* Desktop Styles */
@@ -86,12 +88,14 @@ a {
     
   }
   
-  .button {
+  button {
   position: absolute;
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-      
+  font-family: "Rockwell", Times, serif;
+  padding: 8px;
+  border-color: #A9A9A9;
   }
 
 
