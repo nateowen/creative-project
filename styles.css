@@ -203,10 +203,6 @@ body{
   }
 }
 
-.subscription:hover {
-  color: #303030;
-}
-
 .logo {
   width: 40%;
   height: auto;
@@ -437,3 +433,17 @@ body{
   /*background-color: #28a745;*/
 }
 
+.subscribtion:hover {
+  color: #303030;
+  border: 5px solid #303030;
+  padding: 15px;
+  width: 105%;
+}
+
+.sub-link {
+  color: white;
+}
+
+.sub-link:hover {
+  color: #DCDCDC;
+}
