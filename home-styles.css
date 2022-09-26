@@ -9,6 +9,10 @@ header {
     width: 100vw;
     background: #28a745;
     overflow: hidden;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-family: "Rockwell", Times, serif;
 }
 
 img {
@@ -24,4 +28,70 @@ body {
     margin: 0 auto;
     width: 100%;
 }
+
+.centered {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  font-family: "Monaco", monospace;
+  font-weight: 900;
+}
+
+.below-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.9em;
+  font-weight: 200;
+}
+
+.button {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Rockwell", Times, serif;
+}
+
+a {
+      text-decoration: none;
+      color: white;
+  }
+  
+  a:hover {
+      text-decoration: none;
+      color: #303030;
+  }
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .centered {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+      
+  }
+
+.below-center {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+    
+  }
+  
+  .button {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+      
+  }
+
 
