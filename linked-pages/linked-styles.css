@@ -1,0 +1,19 @@
+.container {
+  max-width: 960px;
+}
+
+.flex-equal > * {
+  flex: 1;
+}
+
+.categories {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}

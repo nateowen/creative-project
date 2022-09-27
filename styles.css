@@ -4,24 +4,6 @@
   box-sizing: border-box;
 }
 
-/*.main-page { 
-  background: url(images/application.webp) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}*/
-
-.home-background {
-  /*background-color: rgba(76, 175, 80, 0.3);
-  background: url(images/application.webp) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
-  
-}
-
 .header {
   display: flex;
   justify-content: center;
