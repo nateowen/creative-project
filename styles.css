@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+.school:hover {
+  box-shadow: 5px 5px green;
+}
+
+.footer {
+  position:inherit;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
 .header {
   display: flex;
   justify-content: center;
