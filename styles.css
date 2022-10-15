@@ -8,6 +8,30 @@
   box-shadow: 5px 5px green;
 }
 
+#schoolInput {
+  border: 2px solid #888888;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+#schoolSubmit {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#schoolSubmit:active {
+  box-shadow: 2px 2px #888888;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .footer {
   position:inherit;
   left: 0;
