@@ -28,3 +28,17 @@ document.getElementById("schoolSubmit").addEventListener("click", function(event
         
       })
 });
+
+document.getElementById('generateUUID').addEventListener('click', function(event) {
+  event.preventDefault();
+  
+  const url = '';
+
+  fetch(url)
+  .then((response) => response.json())
+  .then((data) => {
+    let results = '';
+
+    
+  })
+}); 
