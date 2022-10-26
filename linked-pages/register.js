@@ -3,7 +3,14 @@ const e = React.createElement;
 class RegisterButton extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { liked: false };
+    this.state = { value: '' };
+    
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+  
+  handleSubmit(event) {
+    alert('A UUID was generated.')
+    event.preventDefault();
   }
 
   render() {
